@@ -1,5 +1,9 @@
 $black: #2f2f2f;
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -7,6 +11,11 @@ body {
 header {
   position: fixed;
   z-index: 100;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .header {
@@ -73,16 +82,7 @@ header {
 }
 
 .content-image {
-  img {
-    width: 100vw;
-  }
-
   .beauty-smoot {
-    img {
-      width: 100vw;
-      height: 50vh;
-    }
-
     h2 {
       position: absolute;
       top: 740px;
@@ -94,11 +94,6 @@ header {
   }
 
   .main-featured {
-    img {
-      width: 100vw;
-      height: 50vh;
-    }
-
     h2 {
       position: absolute;
       top: 1100px;
@@ -109,11 +104,6 @@ header {
   }
 
   .cta-tempur {
-    img {
-      width: 100vw;
-      height: 50vh;
-    }
-
     button {
       position: absolute;
       background-color: black;
@@ -185,6 +175,11 @@ header {
   }
 }
 
+.marquee {
+  display: flex;
+  flex-direction: row;
+}
+
 .image-container {
   display: flex;
   flex-direction: row-reverse;
@@ -205,8 +200,9 @@ header {
 .impact {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-
+  justify-content: flex-start;
+  max-width: 60vw;
+  margin: auto;
   .impact-right {
     p.amount {
       font-family: "Open Sans Condensed", sans-serif;
