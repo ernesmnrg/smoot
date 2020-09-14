@@ -1,0 +1,134 @@
+    <!-- Banner 1 -->
+    <div class="banner">
+      <div class="banner-1">
+        <img src="tempur2.jpg" alt="motor-listrik" />
+        <h1>Beauty Syut Tempur</h1>
+        <a class="btn-main" href="#">Lihat selengkapnya</a>
+      </div>
+      <!-- End of Banner 1 -->
+
+      <!-- Banner 2 -->
+      <div class="banner-2">
+        <img src="tempur3.jpg" alt="motor-listrik-2" />
+        <a class="btn-main" href="#">LIHAT TEMPUR</a>
+      </div>
+      <!-- End of Banner 2 -->
+
+      <!-- Banner 3 -->
+
+      <!-- End of banner 3 -->
+
+      <!-- Banner 4 -->
+      <div class="banner-4">
+        <img src="tempur4.jpg" alt="motor-listrik-2">
+        <h1>The All-New Smoot Tempur</h1>
+
+        <div class="banner4-harga">
+          Harga Mulai dari
+        </div>
+        <div class="banner4-rp">
+          Rp 7.500.000
+        </div>
+
+        <div class="banner4-button">
+          <div class="banner4-button4">
+            <div class="banner4-download">
+              Download Brosur
+              <div class="banner4-next">></div>
+            </div>
+          </div>
+          <div class="banner4-button4">
+            <div class="banner4-download">
+              Test Drive
+              <div class="banner4-next">></div>
+            </div>
+          </div>
+      
+        </div>
+        <div class="">
+          <p class="">Smoot Care Package</p>
+          <p class="">Free Parts & Service: All The Time</p>
+        </div>
+
+      </div>
+      <!-- End of Banner 4 -->
+
+      --------------------------------------
+
+      .banner {
+    background-color: white;
+
+    .banner-1 {
+        h1 {
+            position: absolute;
+            border: 5px solid orange;
+            padding: 20px;
+            text-align: center;
+            left: 400px;
+            color: orange;
+        }
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 40px;
+
+        .btn-main {
+            position: absolute;
+            border: 5px solid orange;
+            font-family: "Roboto", sans-serif;
+            text-decoration: none;
+            padding: 16px;
+            background-color: orange;
+            text-transform: uppercase;
+            top: 1250px;
+            left: 550px;
+        }
+
+    }
+
+    .banner-2 {
+        a {
+            background-color: black;
+            font-family: "Roboto", sans-serif;
+            font-size: 30px;
+            text-decoration: none;
+            padding: 16px;
+            color: white;
+            display: flex;
+            position: absolute;
+            top: 1900px;
+            left: 500px;
+            border: 1px solid white;
+        }
+    }
+
+    .banner-4 {
+
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .banner4-harga {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .banner4-rp {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .banner4-button {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+            .banner4-download {
+                display: flex;
+                flex-direction: row;
+            }
+
+
+        }
+
+    }
+
+
+}

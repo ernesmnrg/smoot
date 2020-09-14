@@ -1,0 +1,262 @@
+$black: #2f2f2f;
+
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  z-index: 100;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4.3rem;
+  padding: 0 8%;
+  background-color: #2f2f2f;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+  font-family: Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  img {
+    width: 40%;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  li {
+    display: inline;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .right-header {
+    width: 200%;
+  }
+}
+
+.video {
+  background-color: whitesmoke;
+
+  video {
+    width: 100%;
+  }
+
+  .headline {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 50px;
+  }
+
+  p {
+    display: flex;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 450px;
+    left: 450px;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+
+.content-image {
+  img {
+    width: 100vw;
+  }
+
+  .beauty-smoot {
+    img {
+      width: 100vw;
+      height: 50vh;
+    }
+
+    h2 {
+      position: absolute;
+      top: 740px;
+      left: 65px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 50px;
+      text-align: center;
+    }
+  }
+
+  .main-featured {
+    img {
+      width: 100vw;
+      height: 50vh;
+    }
+
+    h2 {
+      position: absolute;
+      top: 1100px;
+      left: 65px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 50px;
+    }
+  }
+
+  .cta-tempur {
+    img {
+      width: 100vw;
+      height: 50vh;
+    }
+
+    button {
+      position: absolute;
+      background-color: black;
+      color: white;
+      left: 65px;
+      top: 1400px;
+      font-family: "Roboto", sans-serif;
+      padding: 16px;
+      text-transform: uppercase;
+      border: 2px solid black;
+    }
+  }
+
+  .all-new-smoot {
+    position: absolute;
+    top: 1750px;
+    left: 65px;
+
+    .smoot-tempur {
+      font-family: "Open Sans", sans-serif;
+      font-weight: bold;
+      font-size: 50px;
+    }
+
+    .harga {
+      margin-top: 10px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+      margin-bottom: -25px;
+    }
+
+    .rp {
+      font-family: "Open Sans", sans-serif;
+      font-size: 30px;
+    }
+
+    .smoot-package {
+      font-size: 20px;
+      color: rgb(43, 174, 226);
+      font-weight: bold;
+      margin-top: 350px;
+    }
+
+    .service {
+      font-size: 30px;
+      margin-top: 10px;
+      font-family: "Open Sans", sans-serif;
+    }
+
+    .banner4-button4 {
+      .banner4-download {
+        display: flex;
+        flex-direction: row;
+        padding: 16px;
+        border: 0.5px solid black;
+        margin-bottom: 5px;
+        color: black;
+        background-color: white;
+        font-size: 20px;
+        margin-right: 400px;
+        font-family: "Comic Sans", sans-serif;
+
+        .banner4-next {
+          color: orange;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 5px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.impact-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.impact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .impact-right {
+    p.amount {
+      font-family: "Open Sans Condensed", sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    p.total {
+      font-family: "Anton", sans-serif;
+    }
+
+    p.description {
+      font-family: "Open Sans", sans-serif;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+
+  .section-left {
+    padding: 35px 102px;
+    width: 50%;
+
+    img {
+      width: 30%;
+    }
+
+    p {
+      margin: 1% 2%;
+      font-family: "Roboto", sans-serif;
+      color: white;
+      line-height: 30px;
+    }
+
+    background-color: $black;
+  }
+
+  .section-right {
+    background-color: rgb(56, 56, 55);
+    width: 50%;
+    padding: 35px 102px;
+    width: 50%;
+
+    li {
+      list-style-type: none;
+      line-height: 35px;
+      color: white;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+}
